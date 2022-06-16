@@ -6,6 +6,7 @@ import Separator from '../components/separator';
 import SectionHeader from '../components/sectionHeader';
 import Showcase from '../components/showcase';
 import Social from '../components/social';
+import Writing from '../components/writing';
 
 
 export default function Home() {
@@ -22,9 +23,12 @@ export default function Home() {
         <Separator />
         <Showcase />
         <Separator />
+        <Writing />
+        <Separator />
         <div className="flex justify-center pb-20">
           <Social />
         </div>
+
       </div>
       
     </div>
