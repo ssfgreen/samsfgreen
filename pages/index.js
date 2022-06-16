@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Sam Green</title>
         <meta name="description" content="Sam Green Online Portfolio" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="space-y-20">
         <Navbar />
@@ -28,9 +28,7 @@ export default function Home() {
         <div className="flex justify-center pb-20">
           <Social />
         </div>
-
       </div>
-      
     </div>
   )
 }
