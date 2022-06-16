@@ -6,13 +6,21 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: brandon-grotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a {
+  @apply text-highlight;
+}
+
+a:hover {
+  @apply underline;
 }
 
 * {

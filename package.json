@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
     "next": "12.1.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
