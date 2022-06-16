@@ -1,4 +1,4 @@
-import ArticleCard from './ArticleCard'
+import ArticleCard from './articleCard'
 import SectionHeader from './sectionHeader'
 
 export default function Writing() {
