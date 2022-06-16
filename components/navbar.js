@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Social from './social'
 
 export default function Navbar(props) {
   return <div className="flex flex-row py-2 justify-between px-5 text-grey-dark items-center">
@@ -22,18 +23,8 @@ export default function Navbar(props) {
         <a className="">Writing</a>
       </Link> */}
     </div>
-    <div class="flex flex-row space-x-2 items-center w-1/5 justify-end">
-      <a className="flex h-fit grey-mid" href="https://www.instagram.com/samsfgreen/" target="_blank" aria-label="">
-        <Image src="/icons/instagram.svg" height={23} width={23} />
-      </a>
-      <a className="flex h-fit grey-mid" href="https://www.linkedin.com/in/samsfgreen/" target="_blank" aria-label="">
-        <Image src="/icons/linkedin.svg" height={23} width={23} />
-      </a>
-      <button className="outline highlight text-highlight rounded-full px-3 py-1">Contact</button>
-      {/* <a className="w-full" href="https://www.linkedin.com/in/samsfgreen/" target="_blank" aria-label="">
-        <Image src="/icons/twitter.svg" height={23} width={23} />
-      </a> */}
+    <div className="flex w-1/5 justify-end">
+      <Social />
     </div>
-    
   </div>
 }

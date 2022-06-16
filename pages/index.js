@@ -4,6 +4,9 @@ import Header from '../components/header';
 import Navbar from '../components/navbar';
 import Separator from '../components/separator';
 import SectionHeader from '../components/sectionHeader';
+import Showcase from '../components/showcase';
+import Social from '../components/social';
+
 
 export default function Home() {
   return (
@@ -17,7 +20,11 @@ export default function Home() {
         <Navbar />
         <Header />
         <Separator />
-        <SectionHeader title="Showcase" description="A few selected projects that showcase some key areas of interest"></SectionHeader>
+        <Showcase />
+        <Separator />
+        <div className="flex justify-center pb-20">
+          <Social />
+        </div>
       </div>
       
     </div>
