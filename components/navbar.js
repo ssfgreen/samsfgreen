@@ -5,9 +5,9 @@ import Social from './social'
 export default function Navbar(props) {
   return <div className="flex flex-row py-2 justify-between px-5 text-grey-dark items-center">
     <div className="w-1/5">
-      <Image className='rounded-full'
-        src="/images/profile_image.jpg"
-        alt="Profile Image"
+      <Image
+        src="/images/logo_invert.png"
+        alt="SG Logo"
         width='30'
         height='30'
       ></Image>
