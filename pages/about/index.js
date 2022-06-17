@@ -5,7 +5,7 @@ import SectionHeader from '../../components/sectionHeader';
 
 export default function About(props) {
   return <div>
-    <div className="space-y-10">
+    <div className="space-y-20">
       <Navbar />
         <div className='flex w-full flex-col items-center'>
           <Image className='rounded-full'
