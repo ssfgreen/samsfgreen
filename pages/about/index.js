@@ -1,7 +1,6 @@
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
 import Image from 'next/image';
-import SectionHeader from '../../components/sectionHeader';
 
 export default function About(props) {
   return <div>

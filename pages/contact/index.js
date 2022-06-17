@@ -1,5 +1,4 @@
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import Navbar from '../../components/navbar'
 import SectionHeader from '../../components/sectionHeader';
 
 export default function Contact(props) {

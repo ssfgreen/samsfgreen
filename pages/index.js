@@ -3,11 +3,9 @@ import Image from 'next/image'
 import Header from '../components/header';
 import Navbar from '../components/navbar';
 import Separator from '../components/separator';
-import SectionHeader from '../components/sectionHeader';
 import Showcase from '../components/showcase';
-import Social from '../components/social';
 import Writing from '../components/writing';
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
