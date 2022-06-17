@@ -7,7 +7,7 @@ import SectionHeader from '../components/sectionHeader';
 import Showcase from '../components/showcase';
 import Social from '../components/social';
 import Writing from '../components/writing';
-
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="description" content="Sam Green Online Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="space-y-20">
+      <div className="space-y-10">
         <Navbar />
         <Header />
         <Separator />
@@ -25,9 +25,7 @@ export default function Home() {
         <Separator />
         <Writing />
         <Separator />
-        <div className="flex justify-center pb-20">
-          <Social />
-        </div>
+        <Footer />
       </div>
     </div>
   )

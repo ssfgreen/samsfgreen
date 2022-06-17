@@ -24,7 +24,7 @@ export default function Writing() {
     ></ArticleCard>
   })
 
-  return <div className="flex flex-col justify-center mx-auto mb-20 text-grey-dark">
+  return <div className="flex flex-col justify-center mx-auto mb-20 px-5 text-grey-dark">
     <SectionHeader title="Writing" description="I write about what I know in the hope of helping new designers and product builders."></SectionHeader>
     <div className="flex flex-wrap sm:w-4/5 w-full justify-center mx-auto py-4 text-grey-dark items-center">
       {writingCards}

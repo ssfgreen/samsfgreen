@@ -54,17 +54,18 @@ export default function Showcase() {
     }
   ]
 
-  const showcaseCards =  showcases.map(showcase => {
+  const showcaseCards =  showcases.map((showcase, index) => {
     return <ShowcaseCard
       title={showcase.title}
       description={showcase.description}
       image={showcase.image}
+      index={index}
     ></ShowcaseCard>
   })
 
-  return <div className="flex flex-col justify-center mx-auto mb-20 text-grey-dark">
+  return <div className="flex flex-col justify-center mx-auto px-5 mb-20 text-grey-dark">
     <SectionHeader title="Showcase" description="A few selected projects that showcase some key areas of interest"></SectionHeader>
-    <div className="flex flex-wrap sm:w-2/3 w-4/5 justify-center mx-auto py-4 text-grey-dark items-center">
+    <div className="flex flex-wrap lg:w-2/3 w-full justify-center mx-auto py-4 text-grey-dark items-center">
       {showcaseCards}
     </div>
   </div>

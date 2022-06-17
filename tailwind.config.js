@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         'highlight': '#00CA54',
+        'secondary': '#00a6ff',
         'grey-dark': '#292A2C',
         'grey-mid': '#6D6D6D'
       }
@@ -17,9 +18,10 @@ module.exports = {
   plugins: [
     plugin(function({ addBase, theme }) {
       addBase({
-        'h1': { fontSize: theme('fontSize.2xl') },
-        'h2': { fontSize: theme('fontSize.xl') },
-        'h3': { fontSize: theme('fontSize.lg') },
+        'h1': { fontSize: theme('fontSize.5xl') },
+        'h2': { fontSize: theme('fontSize.3xl') },
+        'h3': { fontSize: theme('fontSize.2xl') },
+        'p': { fontSize: theme('fontSize.lg')}
       })
     })
   ]
