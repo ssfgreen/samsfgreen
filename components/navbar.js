@@ -8,7 +8,7 @@ export default function Navbar(props) {
   const currentRoute = router.pathname;
 
   return <div className="flex flex-row py-3 justify-between px-5 text-grey-dark items-center">
-    <div className="sm:w-1/5 w-1/2">
+    <div className="sm:w-2/5 w-1/2">
     <Link href='/'>
       <a className="hover:no-underline">
         {/* <Image
@@ -32,7 +32,7 @@ export default function Navbar(props) {
         <a className="">Writing</a>
       </Link> */}
     </div>
-    <div className="flex w-1/5 justify-end">
+    <div className="flex w-2/5 justify-end">
       <Social />
     </div>
   </div>

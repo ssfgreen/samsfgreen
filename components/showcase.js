@@ -64,7 +64,7 @@ export default function Showcase() {
   })
 
   return <div className="flex flex-col justify-center mx-auto px-5 mb-20 text-grey-dark">
-    <SectionHeader title="Showcase" description="A few selected projects that showcase some key areas of interest"></SectionHeader>
+    <SectionHeader title="Selected Projects" description="Looking at design, development and impact"></SectionHeader>
     <div className="flex flex-wrap lg:w-2/3 w-full justify-center mx-auto py-4 text-grey-dark items-center">
       {showcaseCards}
     </div>

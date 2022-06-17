@@ -2,7 +2,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import SectionHeader from '../../components/sectionHeader';
 
-export default function Cookies(props) {
+export default function Contact(props) {
   return <div>
     <div className="space-y-10">
       <Navbar />
